@@ -27,7 +27,7 @@ Corpus (6 docs) → Pré-processamento → ┬─ BM25 (Léxico) ─┐
 3. **Motor Semântico** — embeddings gerados com `sentence-transformers` (modelo `paraphrase-multilingual-MiniLM-L12-v2`) e similaridade de cosseno.
 4. **Fusão RRF** — combinação dos dois rankings pela fórmula `Score(D) = α·[1/(k+RankBM25)] + (1−α)·[1/(k+RankSemântico)]`, com `k=60` e peso `α` ajustável.
 
-O relatório técnico completo, com detalhes de implementação e testes de cada fase, está em [`docs/Relatorio_HealthSearch_Final.pdf`](Relatorio_HealthSearch.pdf).
+O relatório técnico completo, com detalhes de implementação e testes de cada fase, está em [`Relatorio_HealthSearch.pdf`](Relatorio_HealthSearch.pdf).
 
 ## Interface
 
@@ -74,18 +74,12 @@ A aplicação abrirá automaticamente em `http://localhost:8501`.
 ## Estrutura do repositório
 
 ```
-healthsearch/
+HealtSearch/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
 ├── healthsearch_app.py
-├── docs/
-│   └── Relatorio_HealthSearch_Final.pdf
-└── screenshots/
-    ├── aba_lexico.png
-    ├── aba_semantico.png
-    ├── aba_hibrido_rrf.png
-    └── matriz_comparativa.png
+├── Relatorio_HealthSearch.pdf
 ```
 
 ## Licença
