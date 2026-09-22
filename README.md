@@ -27,7 +27,7 @@ Corpus (6 docs) → Pré-processamento → ┬─ BM25 (Léxico) ─┐
 3. **Motor Semântico** — embeddings gerados com `sentence-transformers` (modelo `paraphrase-multilingual-MiniLM-L12-v2`) e similaridade de cosseno.
 4. **Fusão RRF** — combinação dos dois rankings pela fórmula `Score(D) = α·[1/(k+RankBM25)] + (1−α)·[1/(k+RankSemântico)]`, com `k=60` e peso `α` ajustável.
 
-O relatório técnico completo, com detalhes de implementação e testes de cada fase, está em [`docs/Relatorio_HealthSearch_Final.pdf`](docs/Relatorio_HealthSearch_Final.pdf).
+O relatório técnico completo, com detalhes de implementação e testes de cada fase, está em [`docs/Relatorio_HealthSearch_Final.pdf`](Relatorio_HealthSearch.pdf).
 
 ## Interface
 
@@ -36,8 +36,6 @@ A aplicação expõe quatro abas:
 - **Semântico**
 - **Híbrido RRF**
 - **Matriz Comparativa** — gráfico comparando a posição de cada documento nos três rankings
-
-Capturas de tela disponíveis em [`screenshots/`](screenshots/).
 
 ## Como executar
 
