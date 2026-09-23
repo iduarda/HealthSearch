@@ -43,7 +43,7 @@ A aplicação expõe quatro abas:
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/<seu-usuario>/healthsearch.git
+git clone [https://github.com/<seu-usuario>/healthsearch.git](https://github.com/iduarda/HealthSearch)
 cd healthsearch
 
 # 2. Crie e ative um ambiente virtual
