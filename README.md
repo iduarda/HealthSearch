@@ -75,11 +75,11 @@ A aplicação abrirá automaticamente em `http://localhost:8501`.
 
 ```
 HealtSearch/
-├── README.md
-├── requirements.txt
 ├── .gitignore
-├── healthsearch_app.py
+├── README.md
 ├── Relatorio_HealthSearch.pdf
+├── healthsearch_app.py
+├── requirements.txt
 ```
 
 ## Licença
