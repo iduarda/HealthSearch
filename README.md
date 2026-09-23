@@ -1,5 +1,7 @@
 # HealthSearch — Motor de Busca Híbrido (BM25 + Semântico)
 
+**Aplicação online:** [https://healthsearch-desafio.streamlit.app](https://healthsearch-desafio.streamlit.app)
+
 Projeto desenvolvido para a disciplina **Tendências em Ciência da Computação** — UNIPÊ, como parte do **Laboratório Prático 05 — Desafio Integrador HealthSearch**.
 
 O HealthSearch é um motor de busca sobre um corpus médico, que combina **recuperação léxica (BM25)** e **recuperação semântica (embeddings vetoriais)** através de **Reciprocal Rank Fusion (RRF)**, expondo os três rankings lado a lado em uma interface interativa construída com Streamlit.
